@@ -89,17 +89,17 @@ $(document).ready(function () {
 	});
 
 	// ========================================================================= //
-	//  Owl Carousel Services
+	//  Owl Carousel reviewss
 	// ========================================================================= //
 
-	$('.services-carousel').owlCarousel({
+	$('.reviews-carousel').owlCarousel({
 		autoplay: true,
 		loop: true,
 		margin: 20,
 		dots: true,
 		nav: false,
 		responsiveClass: true,
-		responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } },
+		responsive: { 0: { items: 1 }, 768: { items: 1 }, 900: { items: 1 } },
 	});
 
 	// ========================================================================= //
@@ -117,7 +117,7 @@ $(document).ready(function () {
 			zoom: {
 				enabled: true, // By default it's false, so don't forget to enable it
 
-				duration: 300, // duration of the effect, in milliseconds
+				duration: 5000, // duration of the effect, in milliseconds
 				easing: 'ease-in-out', // CSS transition easing function
 
 				// The "opener" function should return the element from which popup will be zoomed in
