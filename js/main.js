@@ -154,3 +154,9 @@ $(window).load(function () {
 		portfolioIsotope.isotope({ filter: $(this).data('filter') });
 	});
 });
+
+AOS.init({
+	duration: 500,
+	easing: 'slide',
+	once: true,
+});
