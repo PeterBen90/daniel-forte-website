@@ -82,7 +82,7 @@ $(document).ready(function () {
 
 	$(function () {
 		typed.typed({
-			strings: ['Buying.', 'Selling.', 'Investing.'],
+			strings: ['Buying.', 'Selling.', 'Coaching.'],
 			typeSpeed: 100,
 			loop: true,
 		});
