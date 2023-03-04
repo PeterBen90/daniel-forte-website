@@ -158,6 +158,11 @@ p {
 	padding-bottom: 90px;
 }
 
+.paddsection2 {
+	padding-top: 160px;
+	padding-bottom: 90px;
+}
+
 .paddsections {
 	padding-top: 90px;
 	padding-bottom: 90px !important;
@@ -181,7 +186,8 @@ p {
 
 nav {
 	position: fixed;
-	background: #fff;
+	/* background: #fff; */
+	background: rgba(255, 255, 255, 0.9);
 	z-index: 1000;
 	width: 100%;
 	padding: 20px;
@@ -528,7 +534,7 @@ nav ul li a {
 }
 
 .hr {
-	border-top: 1px solid #898989 !important;
+	border-top: 1px solid #afafaf !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -742,6 +748,7 @@ nav ul li a {
 	background: #fff;
 	padding-bottom: 60px;
 	position: relative;
+	padding-top: 160px;
 }
 
 #blog-blog {
