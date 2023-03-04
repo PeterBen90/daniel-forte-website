@@ -81,6 +81,11 @@
 		float: none;
 		display: inline-block;
 	}
+
+	.img-responsive {
+		width: 100%;
+		height: auto;
+	}
 }
 
 /** Width between 767px to 0
@@ -156,6 +161,11 @@
 		float: none;
 		display: inline-block;
 	}
+
+	.img-responsive {
+		width: 100%;
+		height: auto;
+	}
 }
 
 /** Width between 600px to 0
@@ -230,6 +240,11 @@
 
 	.text {
 		margin: 0;
+	}
+
+	.img-responsive {
+		width: 100%;
+		height: auto;
 	}
 }
 
