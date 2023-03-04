@@ -227,6 +227,10 @@
 		float: none;
 		display: inline-block;
 	}
+
+	.text {
+		margin: 0;
+	}
 }
 
 /** Width between 480px to 0
