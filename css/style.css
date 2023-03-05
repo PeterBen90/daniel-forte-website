@@ -839,3 +839,8 @@ figure {
 .ion-navicon-round {
 	color: black;
 }
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
